@@ -1,4 +1,5 @@
 /**
+ * Catalog Task Run Script
  * This run script is the first to run in workflow after start
  * It will set the Request ticket: short description with date, employee name
  * It will also set the manager from the request_for field.
