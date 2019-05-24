@@ -10,7 +10,7 @@
  var updatedManager=current.variables.requested_for.getDisplayValue();
  var targetDate=current.variables.dit_ob_start_date;
 
-// Change short description to reflect name of catalog item
+// Change short description to reflect name of catalog item(s)
 var shortDescription = " DIT Employee On-Boarding";
 
 // Change current short description
