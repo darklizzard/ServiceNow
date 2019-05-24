@@ -1,7 +1,8 @@
 /******************************************************************************
- * Catalog Client Script Used for validation This script is used to validate  *
- * phone number variables. It will issue a warning and then wipe out the data *
- * entered with message for user to enter a valid number.                     *
+ * Catalog Client Script                                                      *
+ * This script is used to validate phone number variables. It will issue a    *
+ * warning and then wipe out the data entered with message for user to enter  *
+ * a valid number.                                                            *
  * @UI_Type [All]                                                             *
  * @Application [Global]                                                      *
  * @Type [onChange]                                                           *
