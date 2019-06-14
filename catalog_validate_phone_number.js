@@ -1,15 +1,15 @@
-/******************************************************************************
- * Catalog Client Script                                                      *
- * This script is used to validate phone number variables. It will issue a    *
- * warning and then wipe out the data entered with message for user to enter  *
- * a valid number.                                                            *
- * @Name [Validate Phone Number]                                              *
- * @UI_Type [All]                                                             *
- * @Application [Global]                                                      *
- * @Type [onChange]                                                           *
- * @Applies_Catalog_Item [True]                                               *
- * @Applies_Target_Record [False]                                             *
- ******************************************************************************/
+/*******************************************************************************
+ * Catalog Client Script
+ * This script is used to validate phone number variables. It will issue a
+ * warning and then wipe out the data entered with message for user to enter
+ * a valid number.
+ * @Name: Validate Phone Number
+ * @UI_Type: All
+ * @Application: Global
+ * @Type: onChange
+ * @Applies_Catalog_Item: True
+ * @Applies_Target_Record: False
+ *******************************************************************************/
  function onChange(control, oldValue, newValue, isLoading) {
 	if (isLoading || newValue == '') {
 		return;

@@ -1,7 +1,7 @@
 /*******************************************************************************
- * Name: Create Incident - NC DIT
- * Location: System Policy > Email > Inbound Actions
- * Author: Jeremy Perdue
+ * @Name: Create Incident - NC DIT
+ * @Location: System Policy > Email > Inbound Actions
+ * @Author: Jeremy Perdue
  *******************************************************************************/
 
  var sendAutoReply = "true";
