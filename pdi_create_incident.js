@@ -1,3 +1,7 @@
+/*******************************************************************************
+ * This is from personal development instance
+ * @Name: Create Incident
+ *******************************************************************************/
 var isMobile = GlideMobileExtensions.getDeviceType() == 'm';
 var link = isMobile ? '#/!list/incident/q:active=true%5Ecaller_id=javascript:gs.user_id()%5EEQ' : 'home.do';
 
