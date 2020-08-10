@@ -1,5 +1,5 @@
 /*******************************************************************************
- * @Name: NCDIT Copy Task Comments to RITM.
+ * @Name: NCDIT Copy Task Comments to RITM. Added.
  * @Filter_Conditions: Additional comments change
  *******************************************************************************/
 (function executeRule(current, previous /*null when async*/) {
