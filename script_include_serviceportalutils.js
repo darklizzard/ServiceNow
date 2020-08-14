@@ -4,6 +4,7 @@
  * https://community.servicenow.com/community?id=community_question&sys_id=81b1db6ddbdcdbc01dcaf3231f96190d
  * https://docs.servicenow.com/bundle/london-application-development/page/app-store/dev_portal/API_reference/JSON/concept/c_JSONAPI.html
  * https://docs.servicenow.com/bundle/london-application-development/page/app-store/dev_portal/API_reference/JSON/concept/c_JSONAPI.html#r_JSON-JSON
+ * Added GrpMember that pulls group memebership. Used with client_script_hide_auto_close.
  ********************************************************************************/
 
 var ServicePortalUtils = Class.create();
