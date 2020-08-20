@@ -5,9 +5,8 @@
  * Active: true
  * Advanced: true
  * Description:
- *
- *
- *
+ * A scheculed job runs which inserts the record into the u_dit_cab_fsc. A business rules runs on insert (DIT Create FSC PDF)
+ * that generates and attaches the pdf to the table record. Notificiation runs on event queued (send.fsc.pdf).
  */
 (function executeRule(current, previous /*null when async*/) {
   var type = current.getValue('u_type');
